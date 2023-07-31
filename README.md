@@ -11,3 +11,5 @@ sudo locale-gen
 
 printer.cfg is optimized for a Creality Ender 3 S1 Pro. If you have already a Custom firmware installed like the firmware from Thomas Tokka, install first Crealitys original Firmware otherwise it will not work
 and the mcu will not cumunicate with the pad or Raspberry.
+
+https://github.com/ThomasToka/MarlinFirmware/releases
