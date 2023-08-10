@@ -29,6 +29,7 @@ make
 
 
 copy the klipper.bin file to printer_data folder so its easy to download it from the Mainsail Webgui to the SD Card
+
 cp ~/klipper/out/firmware.bin ~/printer_data/config
 
 https://www.klipper3d.org/RPi_microcontroller.html
