@@ -1,6 +1,6 @@
 # Klipper__config_Ender3s1Pro_SonicPad
 Klipper Configuration on SonicPad for a Ender 3 s1 Pro. First flash the image from https://github.com/Jpe230/SonicPad-Debian
-pls Check Crealitys Git hub on how to flash a Image on a Sonic Pad
+pls Check Crealitys Github how to flash a Image on a Sonic Pad
 
 for Input Shaping pls follow the steps on the Klipper https://www.klipper3d.org/Measuring_Resonances.html#software-installation
 
