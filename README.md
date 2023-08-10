@@ -16,33 +16,43 @@ https://github.com/ThomasToka/MarlinFirmware/releases
 
 
 How to Generate Klipper Firmware for Ender 3 S1 pro F401 Version
-```cd /klipper
+```
+cd /klipper
 
-make menuconfig```
+make menuconfig
+```
 
 
 <img width="726" alt="image" src="https://github.com/beroliv/Klipper__config_Ender3s1Pro_SonicPad/assets/52623716/f4052d69-9621-4899-a1a4-7e2cd7e488e2">
 
 
-```make```
+```
+make
+```
 
 
 copy the klipper.bin file to printer_data folder so its easy to download it from the Mainsail Webgui to the SD Card
 
-```cp ~/klipper/out/firmware.bin ~/printer_data/config```
+```
+cp ~/klipper/out/firmware.bin ~/printer_data/config
+```
 
 https://www.klipper3d.org/RPi_microcontroller.html
 how to generate mcu Update for the AXL Sensor:
 
-```make menuconfig```
+```
+make menuconfig
+```
 
 <img width="1142" alt="image" src="https://github.com/beroliv/Klipper__config_Ender3s1Pro_SonicPad/assets/52623716/41969c9b-7e91-44c0-a26b-1d8902814e57">
 
-```sudo service klipper stop
+```
+sudo service klipper stop
 
 make flash
 
-sudo service klipper start```
+sudo service klipper start
+```
 
 
 
