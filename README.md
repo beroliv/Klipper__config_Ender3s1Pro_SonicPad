@@ -35,6 +35,8 @@ copy the klipper.bin file to printer_data folder so its easy to download it from
 
 ```
 cp ~/klipper/out/klipper.bin ~/printer_data/config
+or direkt from Terminal to local filesystem
+scp sonic@192.168.0.177:~/klipper/out/klipper.bin /Users/Oliver/Downloads
 ```
 
 https://www.klipper3d.org/RPi_microcontroller.html
