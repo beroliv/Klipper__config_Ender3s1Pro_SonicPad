@@ -37,7 +37,9 @@ make menuconfig
 <img width="1142" alt="image" src="https://github.com/beroliv/Klipper__config_Ender3s1Pro_SonicPad/assets/52623716/41969c9b-7e91-44c0-a26b-1d8902814e57">
 
 sudo service klipper stop
+
 make flash
+
 sudo service klipper start
 
 
