@@ -16,7 +16,9 @@ https://github.com/ThomasToka/MarlinFirmware/releases
 
 
 How to Generate Klipper Firmware for Ender 3 S1 pro F401 Version
+
 cd /klipper
+
 make menuconfig
 
 
