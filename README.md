@@ -29,3 +29,19 @@ make
 copy the klipper.bin file to printer_data folder so its easy to download it from the Mainsail Webgui to the SD Card
 cp ~/klipper/out/firmware.bin ~/printer_data/config
 
+https://www.klipper3d.org/RPi_microcontroller.html
+how to generate mcu Update for the AXL Sensor:
+
+make menuconfig
+
+<img width="1142" alt="image" src="https://github.com/beroliv/Klipper__config_Ender3s1Pro_SonicPad/assets/52623716/41969c9b-7e91-44c0-a26b-1d8902814e57">
+
+sudo service klipper stop
+make flash
+sudo service klipper start
+
+
+
+
+
+
